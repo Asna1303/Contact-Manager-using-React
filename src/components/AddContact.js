@@ -4,3 +4,5 @@ class AddContact extends React.Component {
       name: "",
       email: "",
     };
+  }
+export default AddContact;

@@ -6,7 +6,7 @@ const renderContactList = props.contacts.map((contact) => {
 }return(
 <div classname="item">
     <div className="content">
-        <div classname="header"></div>
+        <div className="header">{contact.name}</div>
     </div>
 </div>
 );

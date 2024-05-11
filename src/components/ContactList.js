@@ -1,6 +1,6 @@
 import React from "react";
-const ContactList = () => {
-    const renderContactList = props.contacts.map((contact) => {
+const ContactList = (props) => {
+const renderContactList = props.contacts.map((contact) => {
     }
 return(
 
